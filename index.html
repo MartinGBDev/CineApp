@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>CineApp</title>
+</head>
+<body>
+    <header>
+        <div id="title_container">
+            <div>
+
+                <h1>Cine<span>App</span></h1>
+                <p>Tus películas favoritas, siempre a mano</p>
+            </div>
+        </div>
+
+        <div id="searchbar_container">
+                <input type="text" placeholder="Buscar película">
+                <button type="submit" id="searchbar_button">Buscar</button>
+                <div id="fav_counter"><img src="" alt=""></div>
+        </div>
+        
+    </header>
+    <main>
+        <div class="wrapper">
+            <section id="filters_section">
+    
+                <div id="filter_buttons_container">
+                    <button id="filter_todas_button" class="filter_button">Todas</button>
+                    <button id="filter_favoritas_button" class="filter_button">Favoritas</button>
+                </div>
+                <div id="counter_founders_container">
+                    <p><span id="founders_counter"></span> películas encontradas</p>
+                </div>
+                <div id="order_select_container">
+                    <select>
+                        <option value="" id="mas_recientes_option">Más recientes</option>
+                        <option value="" id="nombres_option">Nombre</option>
+        
+                    </select>
+                </div>
+            </section>
+            <h2>Películas</h2>
+            <section id="cards_section">
+                    <!--AQUÍ SE INSERTAN LAS TARJETAS DE PELÍCULAS-->
+                   
+                   
+            </section>
+        </div>
+    </main>
+    <footer>
+        <div>
+            <p>CineApp</p>
+        </div>
+        <div>
+            <p>Disfruta, guarda y revive tus películas favoritas</p>
+        </div>
+
+    </footer>
+    
+</body>
+<script src="script.js"></script>
+</html>

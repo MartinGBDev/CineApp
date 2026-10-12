@@ -1,0 +1,98 @@
+[
+  {
+    "id": "1",
+    "title": "El Padrino",
+    "year": "1972",
+    "genre": "Drama",
+    "image": "https://picsum.photos/seed/elpadrino/300/450",
+    "favorite": "true"
+  },
+  {
+    "id": "2",
+    "title": "El Caballero Oscuro",
+    "year": "2008",
+    "genre": "Acción",
+    "image": "https://picsum.photos/seed/batman/300/450",
+    "favorite": "true"
+  },
+  {
+    "id": "3",
+    "title": "Pulp Fiction",
+    "year": "1994",
+    "genre": "Crimen",
+    "image": "https://picsum.photos/seed/pulpfiction/300/450",
+    "favorite": "false"
+  },
+  {
+    "id": "4",
+    "title": "Forrest Gump",
+    "year": "1994",
+    "genre": "Drama",
+    "image": "https://picsum.photos/seed/forrestgump/300/450",
+    "favorite":"true"
+  },
+  {
+    "id": "5",
+    "title": "Matrix",
+    "year": "1999",
+    "genre": "Ciencia ficción",
+    "image": "https://picsum.photos/seed/matrix/300/450",
+    "favorite":"true"
+  },
+  {
+    "id": "6",
+    "title": "Interestelar",
+    "year": "2014",
+    "genre": "Ciencia ficción",
+    "image": "https://picsum.photos/seed/interstellar/300/450",
+    "favorite": "true"
+  },
+  {
+    "id": "7",
+    "title": "Gladiador",
+    "year": "2000",
+    "genre": "Acción",
+    "image": "https://picsum.photos/seed/gladiator/300/450",
+    "favorite": "true"
+  },
+  {
+    "id": "8",
+    "title": "Titanic",
+    "year": "1997",
+    "genre": "Romance",
+    "image": "https://picsum.photos/seed/titanic/300/450",
+    "favorite": "false"
+  },
+  {
+    "id": "9",
+    "title": "Parásitos",
+    "year": "2019",
+    "genre": "Drama",
+    "image": "https://picsum.photos/seed/parasite/300/450",
+    "favorite": "false"
+  },
+  {
+    "id": "10",
+    "title": "Coco",
+    "year": "2017",
+    "genre": "Animación",
+    "image": "https://picsum.photos/seed/coco/300/450",
+    "favorite": "false"
+  },
+  {
+    "id": "11",
+    "title": "Toy Story",
+    "year": "1995",
+    "genre": "Animación",
+    "image": "https://picsum.photos/seed/toystory/300/450",
+    "favorite": "false"
+  },
+  {
+    "id": "12",
+    "title": "El Señor de los Anillos: La Comunidad del Anillo",
+    "year": "2001",
+    "genre": "Fantasía",
+    "image": "https://picsum.photos/seed/lotr/300/450",
+    "favorite": "true"
+  }
+]
