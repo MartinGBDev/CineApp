@@ -230,3 +230,28 @@ footer div:first-child{
         order: 1;
     }
 }
+
+/* --- Contador de favoritos en el header --- */
+#fav_counter{
+    display: flex;
+    align-items: center;
+    gap: .35rem;
+    background-color: #22f;
+    color: #fff;
+    font-weight: bold;
+    padding: .4rem .8rem;
+    border-radius: 20px;
+    margin-left: .5rem;
+    white-space: nowrap;
+}
+#fav_counter .heart{ color: #f66; }
+
+/* --- Botón "favorito" cuando la película ya está guardada --- */
+.favbutton_card.is-fav{
+    background-color: #22f;
+    color: #fff;
+    border-color: #22f;
+}
+.favbutton_card.is-fav:hover{
+    background-color: #003;
+}

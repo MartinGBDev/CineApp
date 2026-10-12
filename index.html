@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,56 +10,53 @@
     <header>
         <div id="title_container">
             <div>
-
                 <h1>Cine<span>App</span></h1>
                 <p>Tus películas favoritas, siempre a mano</p>
             </div>
         </div>
 
         <div id="searchbar_container">
-                <input type="text" placeholder="Buscar película">
-                <button type="submit" id="searchbar_button">Buscar</button>
-                <div id="fav_counter"><img src="" alt=""></div>
+            <input type="text" id="searchbar" placeholder="Buscar película">
+            <button type="button" id="searchbar_button">Buscar</button>
+            <div id="fav_counter" title="Películas favoritas">
+                <span class="heart">♥</span>
+                <span id="fav_counter_number">0</span>
+            </div>
         </div>
-        
     </header>
+
     <main>
         <div class="wrapper">
             <section id="filters_section">
-    
                 <div id="filter_buttons_container">
-                    <button id="filter_todas_button" class="filter_button">Todas</button>
+                    <button id="filter_todas_button" class="filter_button active">Todas</button>
                     <button id="filter_favoritas_button" class="filter_button">Favoritas</button>
                 </div>
                 <div id="counter_founders_container">
-                    <p><span id="founders_counter"></span> películas encontradas</p>
+                    <p><span id="founders_counter">0</span> películas encontradas</p>
                 </div>
                 <div id="order_select_container">
-                    <select>
-                        <option value="" id="mas_recientes_option">Más recientes</option>
-                        <option value="" id="nombres_option">Nombre</option>
-        
+                    <select id="order_select">
+                        <option value="">Ordenar por…</option>
+                        <option value="recientes">Más recientes</option>
+                        <option value="nombre">Nombre</option>
                     </select>
                 </div>
             </section>
+
             <h2>Películas</h2>
+
             <section id="cards_section">
-                    <!--AQUÍ SE INSERTAN LAS TARJETAS DE PELÍCULAS-->
-                   
-                   
+                <!--AQUÍ SE INSERTAN LAS TARJETAS DE PELÍCULAS-->
             </section>
         </div>
     </main>
-    <footer>
-        <div>
-            <p>CineApp</p>
-        </div>
-        <div>
-            <p>Disfruta, guarda y revive tus películas favoritas</p>
-        </div>
 
+    <footer>
+        <div><p>CineApp</p></div>
+        <div><p>Disfruta, guarda y revive tus películas favoritas</p></div>
     </footer>
-    
+
+    <script src="script.js"></script>
 </body>
-<script src="script.js"></script>
 </html>
